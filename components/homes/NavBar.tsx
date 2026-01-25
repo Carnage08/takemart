@@ -3,15 +3,19 @@ import React, { useState, useEffect } from 'react';
 import { Phone, Menu, X } from 'lucide-react';
 import { Button } from "@/components/ui/button"; // Assuming shadcn
 import { cn } from "@/lib/utils";
+import Link from "next/link";
+
+
+
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: "Home", href: "#" },
-    { name: "About", href: "#about" },
-    { name: "Our Franchise", href: "#franchise" },
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Our Franchise", href: "/frenchise" },
     { name: "Blog", href: "#blog" },
     { name: "Contact Us", href: "#contact" },
   ];
@@ -26,7 +30,7 @@ const Navbar = () => {
   const pillBase = "bg-white/90 backdrop-blur-md border border-gray-100 shadow-sm rounded-full flex items-center px-4 py-2 transition-all duration-300";
 
   return (
-    <nav className="fixed top-6 left-0 right-0 z-50 flex justify-center px-4">
+    <nav className="fixed top-6 left-0 right-0 z-50 flex justify-center px-4 z-10">
       <div className="flex items-center gap-3 w-full max-w-7xl justify-between">
         
         {/* LEFT PILL: Contact Info */}
