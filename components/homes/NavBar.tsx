@@ -17,7 +17,7 @@ const Navbar = () => {
     { name: "About", href: "/about" },
     { name: "Our Franchise", href: "/frenchise" },
     { name: "Blog", href: "#blog" },
-    { name: "Contact Us", href: "#contact" },
+    { name: "Contact Us", href: "/contact" },
   ];
 
   useEffect(() => {

@@ -9,6 +9,7 @@ import HowItWorks from "@/components/homes/HowItWorks";
 import { Testimonials } from "@/components/homes/Testimonials";
 import { ProcessSteps } from "@/components/home/ProcessSteps";
 
+
 export default function Home() {
   return (
     <div className="min-h-screen font-sans">
