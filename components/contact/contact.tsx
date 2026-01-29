@@ -1,12 +1,12 @@
 "use client";
 
-import Reveal from "@/components/ui/reveal";
+
 
 import React from "react";
 
 const ContactInfoMapSection = () => {
   return (
-    <Reveal delay={100}>
+    
     <section className="bg-white pt-20 pb-40">
       <div className="max-w-7xl mx-auto px-4 space-y-20">
 
@@ -14,14 +14,14 @@ const ContactInfoMapSection = () => {
         <div className="text-center">
           <h2 className="text-5xl font-extrabold md:text-5xl text-black mb-12">
             What Happens{" "}
-            <span className="text-[#0F5C44]">Next?</span>
+            <span className="text-[#FF8432] ">Next?</span>
           </h2>
 
           <div className="grid grid-cols-1 pt-12 pb-20 md:grid-cols-3 gap-8">
             
             {/* Step 1 */}
-            <div className="bg-[#F5F1E8]/60 rounded-2xl p-8 shadow-md hover:-translate-y-1 transition">
-              <div className="text-4xl font-extrabold text-[#0F5C44] mb-4">
+            <div className="bg-[#C8EAC9] rounded-2xl p-8 shadow-md hover:-translate-y-1 transition">
+              <div className="text-4xl font-extrabold text-[#358438] mb-4">
                 1
               </div>
               <h3 className="text-xl font-semibold mb-2 text-black">
@@ -34,8 +34,8 @@ const ContactInfoMapSection = () => {
             </div>
 
             {/* Step 2 */}
-            <div className="bg-[#F5F1E8]/60 rounded-2xl p-8 shadow-md hover:-translate-y-1 transition">
-              <div className="text-4xl font-extrabold text-[#0F5C44] mb-4">
+            <div className="bg-[#FFEAD3] rounded-2xl p-8 shadow-md hover:-translate-y-1 transition">
+              <div className="text-4xl font-extrabold text-[#FF8432]  mb-4">
                 2
               </div>
               <h3 className="text-xl font-semibold mb-2 text-black">
@@ -48,8 +48,8 @@ const ContactInfoMapSection = () => {
             </div>
 
             {/* Step 3 */}
-            <div className="bg-[#F5F1E8]/60 rounded-2xl p-8 shadow-md hover:-translate-y-1 transition">
-              <div className="text-4xl font-extrabold text-[#0F5C44] mb-4">
+            <div className="bg-[#C8EAC9] rounded-2xl p-8 shadow-md hover:-translate-y-1 transition">
+              <div className="text-4xl font-extrabold text-[#358438] mb-4">
                 3
               </div>
               <h3 className="text-xl font-semibold mb-2 text-black">
@@ -65,10 +65,10 @@ const ContactInfoMapSection = () => {
         </div>
 
         {/* MAP */}
-        <div className="rounded-3xl overflow-hidden shadow-lg border">
+        <div className="rounded-3xl overflow-hidden shadow-lg">
           <iframe
             title="London Eye Map"
-            src="https://www.google.com/maps?q=London%20Eye&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3570.1894475671347!2d80.2592355!3d26.514030899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c37743a5f1789%3A0xa4d8eca575750428!2s71%2C%20MIG%20Ln%2C%20Bairy%2C%20Kalyanpur%2C%20Kanpur%2C%20Uttar%20Pradesh%20208017!5e0!3m2!1sen!2sin!4v1769498315986!5m2!1sen!2sin"
             width="100%"
             height="380"
             loading="lazy"
@@ -79,7 +79,7 @@ const ContactInfoMapSection = () => {
 
       </div>
     </section>
-    </Reveal>
+    
   );
 };
 

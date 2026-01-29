@@ -1,6 +1,6 @@
 "use client";
 
-import Reveal from "@/components/ui/reveal";
+
 
 import { Leaf, Eye, FileText } from "lucide-react";
 
@@ -11,7 +11,7 @@ const cards = [
     description:
       "To deliver fresh, affordable groceries while building trust, sustainability, and convenience into everyday shopping.",
     icon: Leaf,
-    hoverBg: "bg-[#818865]/70"
+    hoverBg: "bg-[#C8EAC9]"
   },
   {
     id: "02",
@@ -19,7 +19,7 @@ const cards = [
     description:
       "To create a connected grocery ecosystem where communities and brands grow together through technology.",
     icon: Eye,
-    hoverBg: "bg-sky-200"
+    hoverBg: "bg-[#FFE0B2]"
   },
   {
     id: "03",
@@ -27,13 +27,13 @@ const cards = [
     description:
       "We stand for quality, transparency, and customer-first thinking in everything we do.",
     icon: FileText,
-    hoverBg: "bg-[#BB8D3F]/60"
+    hoverBg: "bg-[#C8E6C9]"
   }
 ];
 
 const PurposeSection = () => {
   return (
-    <Reveal delay={150}>
+    
     <section className="bg-gray-50 py-32">
       <div className="max-w-7xl mx-auto px-6">
 
@@ -46,14 +46,14 @@ const PurposeSection = () => {
         <div className="text-center mb-24">
   <h2 className="text-5xl md:text-6xl font-extrabold text-black leading-tight">
     Our{" "}
-    <span className="text-[#0F5C44] relative inline-block">
+    <span className="text-[#FF610A] relative inline-block">
       Mission
       <span className="absolute left-0 -bottom-2 w-full h-3 bg-[#BB8D3F]/40 -z-10 rounded-md"></span>
     </span>
     ,{" "}
-    <span className="text-[#0F5C44]">Vision</span>{" "}
+    <span className="text-[#FF610A]">Vision</span>{" "}
     and{" "}
-    <span className="text-[#0F5C44]">Statement</span>
+    <span className="text-[#FF610A]">Statement</span>
   </h2>
 
   <p className="mt-6 text-lg text-black/70 max-w-2xl mx-auto">
@@ -88,7 +88,7 @@ const PurposeSection = () => {
                         shadow-sm
                     ">
                     {/* Number */}
-                    <span className="absolute top-6 right-6 text-3xl font-bold text-black/80">
+                    <span className="absolute top-6 right-6 text-3xl font-bold text-[#0F5C44]">
                         {card.id}
                     </span>
 
@@ -96,7 +96,7 @@ const PurposeSection = () => {
                     <div className="w-24 h-24 rounded-full flex items-center justify-center
                                     bg-gradient-to-br from-[#818865]/20 via-[#BB8D3F]/20 to-sky-200/20
                                     mb-6">
-                        <Icon className="w-14 h-14 text-[#2F4F2F]" />
+                        <Icon className="w-14 h-14 text-[#FF610A]" />
                     </div>
 
                     {/* Title */}
@@ -155,7 +155,7 @@ const PurposeSection = () => {
         </div>
       </div>
     </section>
-    </Reveal>
+   
   );
 };
 

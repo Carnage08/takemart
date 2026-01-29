@@ -1,17 +1,17 @@
 "use client";
 
-import Reveal from "@/components/ui/reveal";
+
 const AboutSections = () => {
   return (
-    <Reveal>
-      <section className="relative w-full bg-[#0F5C44] pt-28 pb-48 overflow-hidden">
+    
+      <section className="relative w-full bg-[#4CAF50] pt-28 pb-48 overflow-hidden">
         
         {/* CENTERED HEADING */}
         <div className="max-w-6xl mx-auto px-6 text-center relative z-10 mt-10 md:mt-16">
           <h1 className="text-4xl md:text-5xl font-bold text-white">
             About Us
           </h1>
-          <p className="mt-6 max-w-3xl mx-auto text-white text-lg leading-relaxed">
+          <p className="mt-6 max-w-3xl mx-auto text-white/90 text-lg leading-relaxed">
             We are a modern grocery platform connecting cities, brands, products,
             and customers with quality, trust, and sustainability at the core.
           </p>
@@ -31,7 +31,7 @@ const AboutSections = () => {
           </svg>
         </div>
       </section>
-    </Reveal>
+  
   );
 };
 

@@ -1,12 +1,11 @@
 "use client";
 
-import Reveal from "@/components/ui/reveal";
 
 import Image from "next/image";
 
 const AboutDetailsSection = () => {
   return (
-    <Reveal delay={100}>
+
     <section className="w-full bg-white py-24">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         
@@ -27,16 +26,16 @@ const AboutDetailsSection = () => {
           {/* TOP SINGLE BLOCK */}
           <div
             className="
-              bg-[#BB8D3F]/50 rounded-3xl p-8
+              bg-[#E8F5E9] rounded-3xl p-8
               transition-all duration-300 ease-out
               hover:-translate-y-2 hover:shadow-xl
               will-change-transform
             "
           >
-            <h2 className="text-2xl font-bold text-black mb-3">
+            <h2 className="text-2xl font-bold text-[#2F7D32] mb-3">
               About Us
             </h2>
-            <p className="text-black leading-relaxed">
+            <p className="text-black/80 leading-relaxed">
               We are a modern grocery platform focused on delivering freshness,
               affordability, and trust. Our goal is to simplify everyday grocery
               shopping while supporting sustainable sourcing.
@@ -48,16 +47,16 @@ const AboutDetailsSection = () => {
             
             <div
               className="
-                bg-[#F5F1E8] rounded-3xl p-8
+                bg-[#FFEDD5] rounded-3xl p-8
                 transition-all duration-300 ease-out
                 hover:-translate-y-2 hover:shadow-xl
                 will-change-transform
               "
             >
-              <h3 className="text-xl font-semibold text-black mb-2">
+              <h3 className="text-xl font-semibold text-[#FF8432] mb-2">
                 Who We Are
               </h3>
-              <p className="text-black leading-relaxed">
+              <p className="text-black/80 leading-relaxed">
                 A team driven by innovation and customer-first thinking, working
                 to connect communities with reliable grocery brands.
               </p>
@@ -65,16 +64,16 @@ const AboutDetailsSection = () => {
 
             <div
               className="
-                bg-[#F5F1E8] rounded-3xl p-8
+                bg-[#FFEDD5] rounded-3xl p-8
                 transition-all duration-300 ease-out
                 hover:-translate-y-2 hover:shadow-xl
                 will-change-transform
               "
             >
-              <h3 className="text-xl font-semibold text-black mb-2">
+              <h3 className="text-xl font-semibold text-[#FF8432] mb-2">
                 What We Do
               </h3>
-              <p className="text-black leading-relaxed">
+              <p className="text-black/80 leading-relaxed">
                 We bring quality groceries to your doorstep by partnering with
                 trusted brands and ensuring efficient, tech-enabled delivery.
               </p>
@@ -84,7 +83,7 @@ const AboutDetailsSection = () => {
         </div>
       </div>
     </section>
-    </Reveal>
+    
   );
 };
 

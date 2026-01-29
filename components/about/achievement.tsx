@@ -1,6 +1,6 @@
 "use client";
 
-import Reveal from "@/components/ui/reveal";
+
 
 const achievements = [
     { value: "250+", label: "Cities" },
@@ -11,7 +11,7 @@ const achievements = [
   
   const Achievement = () => {
     return (
-        <Reveal delay={250}>
+        
 
       <section className="w-full bg-white py-24">
         <div className="max-w-6xl mx-auto px-6">
@@ -31,7 +31,7 @@ const achievements = [
             {achievements.map((item, index) => (
               <div
                 key={index}
-                className="bg-[#0F5C44] rounded-2xl p-8 text-center shadow-md hover:-translate-y-1 transition-all duration-300"
+                className="bg-[#FF8432] rounded-2xl p-8 text-center shadow-md hover:-translate-y-1 transition-all duration-300"
               >
                 <h3 className="text-4xl font-bold text-[#F5F1E8]">
                   {item.value}
@@ -45,7 +45,7 @@ const achievements = [
   
         </div>
       </section>
-      </Reveal>
+      
     );
   };
   

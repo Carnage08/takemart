@@ -1,6 +1,6 @@
 "use client";
 
-import Reveal from "@/components/ui/reveal";
+
 import {
   Factory,
   TestTube,
@@ -17,55 +17,55 @@ const features = [
     title: "Quality Sourcing",
     description: "Carefully sourced groceries ensuring freshness, purity, and reliability.",
     icon: Factory,
-    bg: "bg-[#818865]/10"
+    bg: "bg-[#FFEDD5]"
   },
   {
     title: "Quality Assurance",
     description: "Every product is checked to meet safety and quality standards.",
     icon: TestTube,
-    bg: "bg-[#BB8D3F]/10"
+    bg: "bg-[#E8F5E9]"
   },
   {
     title: "Wide Availability",
     description: "Reliable supply across cities with efficient distribution.",
     icon: Globe,
-    bg: "bg-sky-100/60"
+    bg: "bg-[#FFEDD5]"
   },
   {
     title: "Customer-First",
     description: "Designed to meet the daily needs of families and communities.",
     icon: Users,
-    bg: "bg-[#818865]/10"
+    bg: "bg-[#E8F5E9]"
   },
   {
     title: "Efficient Delivery",
     description: "Timely delivery supported by strong logistics partners.",
     icon: Truck,
-    bg: "bg-[#BB8D3F]/10"
+    bg: "bg-[#E8F5E9]"
   },
   {
     title: "Secure Packaging",
     description: "Hygienic, durable, and eco-conscious packaging.",
     icon: ShieldCheck,
-    bg: "bg-sky-100/60"
+    bg: "bg-[#FFEDD5]"
   },
   {
     title: "Innovation Driven",
     description: "Constant improvements for better products and experiences.",
     icon: Lightbulb,
-    bg: "bg-[#818865]/10"
+    bg: "bg-[#E8F5E9]"
   },
   {
     title: "Trusted Partnerships",
     description: "Strong relationships with suppliers and local communities.",
     icon: Handshake,
-    bg: "bg-[#BB8D3F]/10"
+    bg: "bg-[#FFEDD5]"
   }
 ];
 
 const WhyChooseUs = () => {
   return (
-    <Reveal delay={200}>
+    
     <section className="bg-white py-32">
       <div className="max-w-7xl mx-auto px-6">
 
@@ -96,7 +96,7 @@ const WhyChooseUs = () => {
                   shadow-md
                 `}
               >
-                <Icon className="w-10 h-10 text-[#2F4F2F] mb-6" />
+                <Icon className="w-10 h-10 text-[#2F7D32] mb-6" />
 
                 <h3 className="text-xl font-semibold text-black mb-3">
                   {item.title}
@@ -112,7 +112,7 @@ const WhyChooseUs = () => {
 
       </div>
     </section>
-    </Reveal>
+    
   );
 };
 

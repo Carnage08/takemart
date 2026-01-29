@@ -1,13 +1,13 @@
 "use client";
 
-import Reveal from "@/components/ui/reveal";
+
 
 import Image from "next/image";
 
 const FounderSection = () => {
   return (
-    <Reveal delay={350}>
-    <section className="bg-[#F5F1E8]/45 py-32">
+    
+    <section className="bg-[#FFF6EC] py-32">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
 
@@ -18,7 +18,7 @@ const FounderSection = () => {
             </h2>
 
             <p className="text-black/70 mb-4 leading-relaxed">
-              G-Fresh Mart was born from a simple belief — that every community
+              Take Smart was born from a simple belief — that every community
               deserves access to fresh, affordable, and reliable groceries.
             </p>
 
@@ -40,7 +40,7 @@ const FounderSection = () => {
                 — Founder & Team
               </p>
               <p className="text-black/60 text-sm">
-                G-Fresh Mart
+                Take Smart
               </p>
             </div>
           </div>
@@ -68,7 +68,7 @@ const FounderSection = () => {
         </div>
       </div>
     </section>
-    </Reveal>
+    
   );
 };
 

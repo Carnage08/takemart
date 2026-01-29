@@ -1,11 +1,11 @@
 "use client";
 
-import Reveal from "@/components/ui/reveal";
+
 import Image from "next/image";
 
 const CallToAction = () => {
   return (
-    <Reveal delay={300}>
+    
     <section className="bg-white py-24">
       <div className="max-w-7xl mx-auto px-6">
         <div className="relative overflow-hidden rounded-[32px] bg-[#F4F9EE]">
@@ -19,19 +19,19 @@ const CallToAction = () => {
             {/* LEFT CONTENT */}
             <div>
               <h2 className="text-4xl lg:text-5xl font-extrabold text-black leading-tight">
-                Start Your <span className="text-[#0F5C44]">G-Fresh Mart</span>{" "}
+                Start Your <span className="text-[#4CAF50]">Take Smart</span>{" "}
                 Journey Today
               </h2>
 
               <p className="mt-6 text-black/70 max-w-xl">
                 Launch your profitable supermarket in just{" "}
                 <span className="font-semibold text-black">45 days</span> with
-                end-to-end support and world-class infrastructure from G-Fresh
-                Mart.
+                end-to-end support and world-class infrastructure from Take
+                Smart.
               </p>
 
               <div className="mt-10 flex flex-wrap gap-4">
-                <button className="px-8 py-4 rounded-full bg-[#FF8A00] text-white font-semibold shadow-md hover:opacity-90 transition">
+                <button className="px-8 py-4 rounded-full bg-[#FF8432] text-white font-semibold shadow-md hover:opacity-90 transition">
                   Apply Now
                 </button>
 
@@ -56,7 +56,7 @@ const CallToAction = () => {
         </div>
       </div>
     </section>
-    </Reveal>
+    
   );
 };
 

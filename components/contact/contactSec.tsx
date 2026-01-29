@@ -1,6 +1,6 @@
 "use client";
 
-import Reveal from "@/components/ui/reveal";
+
 
 import React, { useState } from "react";
 import { FiPhone, FiMail, FiClock, FiMapPin } from "react-icons/fi";
@@ -21,7 +21,7 @@ const ContactFormSection = () => {
   };
 
   return (
-    <Reveal>
+    
     <section className="bg-white pt-32 md:pt-40 pb-10 md:pb-12 text-gray-800">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
@@ -34,14 +34,14 @@ const ContactFormSection = () => {
 
             <p className="text-lg text-black mb-12 max-w-lg">
             Built on value, trust, and day-to-day demand, 
-            G Fresh is one of the best grocery store franchise in India with 
+            TakeSmart is one of the best grocery store franchise in India with 
             over 400 stores nationwide. We offer a simple path to owning a Supermarket 
             Business with clear pricing, strong supply, and solid margins.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-lg">
               <div className="flex space-x-4">
-                <FiPhone className="text-3xl text-[#0F5C44]" />
+                <FiPhone className="text-3xl text-[#FF8432]" />
                 <div>
                   <h3 className="font-semibold">Call US</h3>
                   <p className="text-black/40">
@@ -51,7 +51,7 @@ const ContactFormSection = () => {
               </div>
 
               <div className="flex space-x-4">
-                <FiMail className="text-3xl text-[#0F5C44]" />
+                <FiMail className="text-3xl text-[#FF8432]" />
                 <div>
                   <h3 className="font-semibold">Chat To Us</h3>
                   <p className="text-black/40">support@tuy</p>
@@ -59,7 +59,7 @@ const ContactFormSection = () => {
               </div>
 
               <div className="flex space-x-4">
-                <FiClock className="text-3xl text-[#0F5C44]" />
+                <FiClock className="text-3xl text-[#FF8432]" />
                 <div>
                   <h3 className="font-semibold">Hours</h3>
                   <p className="text-black/40">Mon - Fri: 8AM - 9PM</p>
@@ -67,23 +67,23 @@ const ContactFormSection = () => {
               </div>
 
               <div className="flex space-x-4">
-                <FiMapPin className="text-3xl text-[#0F5C44]" />
+                <FiMapPin className="text-3xl text-[#FF8432] " />
                 <div>
                   <h3 className="font-semibold">Visit Us</h3>
                   <p className="text-black/40">
-                    133/24, kanpur university<br />
-                    Kanpur, India
+                  71-MIG, Dayanand Vihar <br />
+                  Kalyanpur,Kanpur, India
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* RIGHT FORM CARD bg-[#F0FDFB] bg-linear-to-b from-[#b7ece5] to-white opacity-90*/}
-          <div className="bg-[#F5F1E8]/45 opacity-90 rounded-3xl p-8 md:p-12 shadow-md">
+          {/* RIGHT FORM CARD bg-[#F5F1E8]/45 bg-linear-to-b from-[#b7ece5] to-white opacity-90*/}
+          <div className="bg-[#FFF6EC] opacity-90 rounded-3xl p-8 md:p-12 shadow-md">
 
             <h2 className="text-4xl font-bold mb-10">
-              Team will <span className="text-[#0F5C44]">call you back!</span>
+              Team will <span className="text-[#FF8432]">call you back!</span>
             </h2>
 
             <form onSubmit={handleSubmit} noValidate className="space-y-6">
@@ -164,7 +164,7 @@ const ContactFormSection = () => {
   <div className="flex justify-end">
     <button
       type="submit"
-      className="bg-[#0F5C44] text-white font-semibold hover:bg-[#FF8A00] text-white text-lg px-10 py-4 rounded-full transition"
+      className="bg-[#FF8432]  text-white font-semibold hover:bg-[#0F5C44] text-white text-lg px-10 py-4 rounded-full transition"
     >
       Request Callback
     </button>
@@ -177,7 +177,7 @@ const ContactFormSection = () => {
         </div>
       </div>
     </section>
-    </Reveal>
+    
   );
 };
 

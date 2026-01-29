@@ -40,3 +40,6 @@
     transform-style: preserve-3d;
   }
 }
+.inp {
+  @apply w-full rounded-xl border border-black/10 px-5 py-4 bg-white text-black focus:outline-none focus:ring-2 focus:ring-[#4CAF50];
+}
